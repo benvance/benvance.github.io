@@ -15,8 +15,10 @@
 			ball.center();
 			ball.friction = 0;
 			ball.bounce();
+			setTimeout(funtion() {
 			ball.pushRight(8);
 			ball.pushUp(8);
+		}, 1000);
 
 		var paddle = new sjs.Image("Images/green.png");
 			paddle.type = "paddle";
